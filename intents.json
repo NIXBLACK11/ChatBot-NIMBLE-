@@ -1,0 +1,194 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What is your name?",
+        "What is the name given to you by the developers"
+      ],
+      "responses": [
+        "Hey my name is NIMBLE",
+        "Hello, thanks for visiting, My name is Nimble",
+        "Hi there, what can Nimble do for you?",
+        "Hi there, how can Nimble help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "calculate",
+      "patterns": [
+        "how much is rupee",
+        "is rupee",
+        "what is value of rupee"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "task",
+      "patterns": [
+        "remind me about doing : at",
+        "I have to complete : at",
+        "Set a reminder : at",
+        "set task : at"
+      ],
+      "responses": [
+        "Task saved"
+      ]
+    },
+    {
+      "tag": "task_return",
+      "patterns": [
+        "show tasks ",
+        "show left tasks",
+        "what tasks are left",
+        "show all tasks"
+      ],
+      "responses": [
+        "Task saved"
+      ]
+    },
+    {
+      "tag": "asking_what_to_talk_about",
+      "patterns": [
+        "I'm not sure, what do you like to talk about?",
+        "Do you have any topics you'd like to discuss?",
+        "I'm open to anything, what do you want to talk about?"
+      ],
+      "responses": "Let's see... we could talk about hobbies, current events, travel, movies, books... the possibilities are endless! What interests you the most?"
+    },
+    {
+      "tag": "telling_what_to_talk_about",
+      "patterns": [
+        "I'm really into sports right now.",
+        "I love reading, have you read any good books lately?",
+        "I've been wanting to learn more about technology, do you have any recommendations?"
+      ],
+      "responses": "Do you have any specific questions or just want to have a general conversation about it?"
+    },
+    {    
+      "tag": "asking_about_hobbies",    
+      "patterns": [      
+        "What do you like to do in your free time?",      
+        "Do you have any hobbies or interests?",      
+        "How do you like to spend your weekends?"    
+      ],
+    "responses": "I like to stay busy and try new things, so I have a lot of hobbies and interests. Some of my favorites include reading, hiking, and playing music. How about you?"
+    },
+    {
+      "tag": "telling_about_hobbies",
+      "patterns": [
+        "I love playing sports and being outdoors.",
+        "I enjoy reading, writing, and watching movies.",
+        "I'm into art and design, and I like to spend my free time creating things."
+      ],
+      "responses": "That's really cool! these are great hobbies to have. Do you have any specific events or projects coming up related to your hobbies that you'd like to talk about?"
+    },
+    {
+      "tag": "asking_about_current_events",
+      "patterns": [
+        "What's going on in the world right now?",
+        "Have you been following any news stories recently?",
+        "Do you have any thoughts on the latest political developments?"
+      ],
+      "responses": "There's always a lot happening in the world, it can be hard to keep up! I've been following a few news stories recently that I've found interesting. Would you like to discuss any specific topics or just have a general conversation about current events?"
+    },
+    {
+      "tag": "telling_about_current_events",
+      "patterns": [
+        "I've been really interested in the environmental movement and the efforts to combat climate change.",
+        "I've been following the latest developments in technology and how it's changing the way we live and work.",
+        "I'm interested in social justice issues and the ongoing efforts to promote equality and equity."
+      ],
+      "responses": "Those are all important and timely topics! It's always good to stay informed and engaged with what's going on in the world. Do you have any specific questions or thoughts you'd like to share about these topics?"
+    },
+    {
+      "tag": "asking_about_travel",
+      "patterns": [
+        "Have you been on any trips lately?",
+        "Do you like to travel?",
+        "What's the coolest place you've ever visited?"
+      ],
+      "responses": "I love to travel and have been fortunate enough to visit some really amazing places. Recently, I went on a trip to (insert cool place here) and it was such a unique and memorable experience. How about you, do you enjoy traveling?"
+    },
+    {
+      "tag": "telling_about_travel",
+      "patterns": [
+        "I've been wanting to go on a road trip for a while now.",
+        "I just got back from a vacation in ",
+        "I've always wanted to visit "
+      ],
+      "responses": "Road vacations can be a lot of fun! It sounds like you have some interesting travel plans or aspirations. Do you have any specific questions or stories about your travels that you'd like to share?"
+    }
+  ]
+}
